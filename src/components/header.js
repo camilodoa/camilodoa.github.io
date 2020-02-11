@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 
 export default function Header () {
   return (
-    <Navbar bg='white' expand='md' fixed='top'>
+    <Navbar bg='white' expand='md' fixed='top' className='mb-4'>
       <Navbar.Brand href='/'>
         <b>Camilo Ortiz</b>
       </Navbar.Brand>
@@ -12,7 +12,7 @@ export default function Header () {
 
       <Navbar.Collapse>
         <Nav>
-          <Nav.Link href='/about'>
+          <Nav.Link href='/'>
             about
           </Nav.Link>
 

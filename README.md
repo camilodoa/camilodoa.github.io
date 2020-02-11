@@ -1,9 +1,10 @@
-# Camilo's Website
+# Website
+
+My personal website.
 
 ## Getting started
 
 `npm install`
-
 
 ## Running
 

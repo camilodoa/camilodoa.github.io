@@ -14,8 +14,12 @@ code {
     monospace;
 }
 
-.cover {
-  max-height: 80vh;
+.top {
+  margin-top: 3rem;
+}
+
+.bottom {
+  margin-bottom: 3rem;
 }
 
 .profile {

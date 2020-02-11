@@ -8,11 +8,24 @@ export default function Home () {
   return (
     <Container className='my-2 full'>
       <Row className='align justify my-2 justify-content-md-center'>
-        <Col lg={8}>
+        <Col lg={8} className='top'>
           <Image alt="cover" src='../cover.jpg' fluid />
         </Col>
-        <Col lg={8} className="my-4">
-          <h5>Hi, I'm Camilo.</h5>
+        <Col lg={8}>
+          <h5 className='my-4'>Hi, I'm Camilo.</h5>
+          <h5 className='my-4'>
+            I study Computer Science at <a href="https://www.amherst.edu/" rel="noreferrer noopener" target="_blank">
+            Amherst College</a>.
+          </h5>
+          <h5 className='my-4'>
+            I'm interested in Deep Learning, Web Development, and Generative Art.
+          </h5>
+          <h5 className='my-4'>
+            I care about efficiency, durability, and design.
+          </h5>
+          <h5 className='my-4 mb-5'>
+            Say hi! :-)
+          </h5>
         </Col>
       </Row>
     </Container>

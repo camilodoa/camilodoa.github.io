@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav'
 
 export default function Footer () {
   return (
-    <Navbar bg='white' fixed='bottom'>
+    <Navbar bg='white' fixed='bottom' className='mt-4'>
       <Nav>
         <Nav.Link href='mailto: camilodortiz@gmail.com'>
           mail
