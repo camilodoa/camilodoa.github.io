@@ -19,9 +19,6 @@ export default function Footer () {
           twitter
         </Nav.Link>
 
-        <Nav.Link href='/resume.html'>
-          resume
-        </Nav.Link>
       </Nav>
     </Navbar>
   );
