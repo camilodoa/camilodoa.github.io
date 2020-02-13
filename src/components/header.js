@@ -24,10 +24,6 @@ export default function Header () {
             projects
           </Nav.Link>
 
-          <Nav.Link href='/art'>
-            generative art
-          </Nav.Link>
-
           <Nav.Link href='/photos'>
             photography
           </Nav.Link>

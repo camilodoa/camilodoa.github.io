@@ -5,11 +5,12 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 
 export default function Work () {
+  let root = '../work/';
   return (
     <Container className='my-2'>
       <Row className='align justify full my-4 justify-content-md-center'>
         <Col className='mx-4 top'>
-          <Image alt='me' src='../me.jpg' roundedCircle className='profile'/>
+          <Image alt='me' src={root + 'me.jpg'} roundedCircle className='profile'/>
         </Col>
         <Col className='my-4'>
           <h5 className='my-4'>

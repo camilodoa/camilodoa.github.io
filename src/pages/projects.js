@@ -5,11 +5,12 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 
 export default function Projects () {
+  let root = '../projects/';
   return (
     <Container className='mt-4 full'>
       <Row className='align justify my-2 justify-content-md-center'>
         <Col lg={8} className='top bottom'>
-          <Image alt='ai-melts-ice' src='../ai-melts-ice.jpg' fluid></Image>
+          <Image alt='ai-melts-ice' src={root + 'ai-melts-ice.jpg'} fluid></Image>
           <h4 className='my-4'>
             <b>
               <a href="https://ai-melts-ice.ml"
@@ -27,7 +28,7 @@ export default function Projects () {
       </Row>
       <Row className='align justify my-2 justify-content-md-center'>
         <Col lg={8} className='bottom'>
-          <Image alt='slepton' src='../slepton.jpg' fluid></Image>
+          <Image alt='slepton' src={root + 'slepton.jpg'} fluid></Image>
           <h4 className='my-4'>
             <b><a href="https://slepton.tk"
            rel="noopener noreferrer" target="_blank">slepton.tk</a>

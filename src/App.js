@@ -4,6 +4,7 @@ import Footer from './components/footer.js';
 import Home from './pages/home.js';
 import Work from './pages/work.js';
 import Projects from './pages/projects.js';
+import Photography from './pages/photography.js';
 import {Switch, Route} from 'react-router-dom';
 
 function App() {
@@ -22,6 +23,9 @@ function App() {
           </Route>
           <Route path='/projects'>
             <Projects/>
+          </Route>
+          <Route path='/photos'>
+            <Photography/>
           </Route>
         </Switch>
       </div>
