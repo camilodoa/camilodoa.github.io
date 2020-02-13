@@ -19,7 +19,7 @@ export default function Footer () {
           twitter
         </Nav.Link>
 
-        <Nav.Link href='https://camilodoa.ml/resume'>
+        <Nav.Link href='/resume.html'>
           resume
         </Nav.Link>
       </Nav>
