@@ -1,18 +1,19 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import Link from 'react-router-dom/Link';
 
 export default function Header () {
   return (
     <Navbar bg='white' expand='md' fixed='top' className='mb-4'>
       <Navbar.Brand href='/'>
-        <b>Camilo Ortiz</b>
+        <b>camilo ortiz</b>
       </Navbar.Brand>
 
       <Nav>
-        <Nav.Link href='/photos'>
+        <Link to='/photos'>
           photography
-        </Nav.Link>
+        </Link>
       </Nav>
     </Navbar>
   );
