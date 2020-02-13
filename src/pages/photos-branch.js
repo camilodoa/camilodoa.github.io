@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 
-export default function Photography () {
+export default function Photos () {
   let root = '../photography/';
   let imagelist = ['IMG_1388.jpg', 'IMG_5552.JPG', 'ORTIZ_RURAL_IMG3.JPG',
     'ORTIZ_URBAN1.jpg', 'ORTIZ_URBAN3.JPG',

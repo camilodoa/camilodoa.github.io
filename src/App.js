@@ -1,10 +1,8 @@
 import React from 'react';
 import Header from './components/header.js';
 import Footer from './components/footer.js';
-import Home from './pages/home.js';
-import Work from './pages/work.js';
-import Projects from './pages/projects.js';
-import Photography from './pages/photography.js';
+import Trunk from './pages/trunk.js';
+import Photos from './pages/photos-branch.js';
 import {Switch, Route} from 'react-router-dom';
 
 function App() {
@@ -16,16 +14,10 @@ function App() {
       <div>
         <Switch>
           <Route exact path='/'>
-            <Home/>
-          </Route>
-          <Route path='/work'>
-            <Work/>
-          </Route>
-          <Route path='/projects'>
-            <Projects/>
+            <Trunk/>
           </Route>
           <Route path='/photos'>
-            <Photography/>
+            <Photos/>
           </Route>
         </Switch>
       </div>

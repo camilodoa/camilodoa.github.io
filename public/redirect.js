@@ -3,7 +3,7 @@
 // Copyright (c) 2016 Rafael Pedicini, licensed under the MIT License
 // ----------------------------------------------------------------------
 (function(l) {
-  const nonHomeUrls = ['/work', '/projects', '/photos'];
+  const nonHomeUrls = ['/photos'];
   for (let i = 0; i < nonHomeUrls.length; i++) {
     const urlRegex = new RegExp(nonHomeUrls[i], 'i');
     const verifyUrl = urlRegex.test(l.pathname);

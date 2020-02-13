@@ -6,9 +6,6 @@ export default function Footer () {
   return (
     <Navbar bg='white' fixed='bottom' className='mt-4'>
       <Nav>
-        <Nav.Link href='mailto: camilodortiz@gmail.com'>
-          mail
-        </Nav.Link>
 
         <Nav.Link href='https://www.linkedin.com/in/camilodortiz/'>
           linkedin
@@ -20,6 +17,10 @@ export default function Footer () {
 
         <Nav.Link href='https://twitter.com/camilodoa'>
           twitter
+        </Nav.Link>
+
+        <Nav.Link href='https://camilodoa.ml/resume'>
+          resume
         </Nav.Link>
       </Nav>
     </Navbar>
