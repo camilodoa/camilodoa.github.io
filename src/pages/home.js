@@ -23,7 +23,7 @@ export default function Home () {
           </h5>
 
           <h5 className='my-4 bottom'>
-          <span role='img' aria-label='emoji'>🥵</span>
+          <span role='img' aria-label='emoji'>🐜</span>
           </h5>
         </Col>
       </Row>
