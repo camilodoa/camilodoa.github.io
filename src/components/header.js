@@ -12,10 +12,6 @@ export default function Header () {
 
       <Navbar.Collapse>
         <Nav>
-          <Nav.Link href='/'>
-            about
-          </Nav.Link>
-
           <Nav.Link href='/work'>
             work
           </Nav.Link>

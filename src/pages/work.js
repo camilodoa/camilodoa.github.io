@@ -23,7 +23,7 @@ export default function Work () {
              rel="noopener noreferrer" target="_blank">web application</a> that provides an interface
              for programmers to generate and save efficient query-plans for
              semantically-interconnected datasources. Next Fall, I'll be starting
-             as a Software Engineer for <a href="https://www.jpmorgan.com/country/US/en/jpmorgan"
+             as a Software Engineer at <a href="https://www.jpmorgan.com/country/US/en/jpmorgan"
              rel="noopener noreferrer" target="_blank">JPMorgan Chase & Co.</a>
           </h5>
           <h5 className='my-4'>

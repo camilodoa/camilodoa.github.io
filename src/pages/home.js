@@ -8,7 +8,7 @@ export default function Home () {
   let root = '../home/';
   return (
     <Container className='my-2 full'>
-      <Row className='align justify my-2 justify-content-md-center bottom'>
+      <Row className='align justify my-2 justify-content-md-center'>
         <Col lg={8} className='top'>
           <Image alt="cover" src={root + 'cover.jpg'} fluid />
         </Col>
@@ -19,10 +19,11 @@ export default function Home () {
             Amherst College</a>.
           </h5>
           <h5 className='my-4'>
-            I'm interested in Deep Learning, Web Development, and Generative Art.
+            I'm interested in deep learning, web development, and generative art.
           </h5>
-          <h5 className='my-4'>
-            Say hi! :-)
+
+          <h5 className='my-4 bottom'>
+          <span role='img' aria-label='emoji'>🥵</span>
           </h5>
         </Col>
       </Row>
