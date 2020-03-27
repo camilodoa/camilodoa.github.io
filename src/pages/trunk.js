@@ -20,8 +20,7 @@ export default function Trunk () {
           </p>
           <p className='my-4'>
             I study Computer Science at <a href="https://www.amherst.edu/" rel="noreferrer noopener" target="_blank">
-            Amherst College</a>. I love deep learning,
-            generative art, and web development.
+            Amherst College</a>. I love working at the intersection of deep learning and web development.
           </p>
           <p className='my-4'>
             I was recently a research assistant at <a href="http://www.cs.ox.ac.uk/"
@@ -32,9 +31,9 @@ export default function Trunk () {
              developed a full-stack <a href="http://pdq-webapp.cs.ox.ac.uk/react-ui"
              rel="noopener noreferrer" target="_blank">web application</a> that provides an interface
              for programmers to generate and save efficient query-plans for
-             semantically-interconnected datasources. Next Fall, I'll be starting
+             semantically-interconnected datasources. Next fall, I'll be starting
              as a Software Engineer at <a href="https://www.jpmorgan.com/country/US/en/jpmorgan"
-             rel="noopener noreferrer" target="_blank">JPMorgan Chase & Co.</a>
+             rel="noopener noreferrer" target="_blank">J.P.Morgan Chase & Co.</a>
           </p>
           <p className='my-2'>
             In 2018, I was involved in the development of <a href="https://bampfa.org/program/dimensionism-modern-art-age-einstein"
