@@ -12,7 +12,7 @@ export default function Trunk () {
     <Container className='my-2 top'>
       <Row className='align justify full my-4 justify-content-md-center top bottom'>
         <Col className='mx-4 top bottom'>
-          <Image alt='me' src={general + 'me.png'} roundedCircle className='profile'/>
+          <Image alt='me' src={general + 'me.jpg'} roundedCircle className='profile'/>
         </Col>
         <Col className='my-4'>
           <p className='my-4'>
