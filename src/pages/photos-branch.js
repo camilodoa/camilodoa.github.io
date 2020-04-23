@@ -10,7 +10,7 @@ export default function Photos () {
     'ORTIZ_URBAN1.jpg', 'ORTIZ_URBAN3.JPG',
     'IMG_1911.JPG', 'IMG_1578.JPG', 'IMG_2127.JPG', 'ORTIZ_URBAN_2.jpg',
     'ORTIZ_RURAL_IMG1.JPG', 'IMG_1607.JPG',
-    'IMG_4467.JPG', 'IMG_4103.JPG', 'IMG_3445.JPG',
+    'IMG_4467.JPG', 'IMG_4103.jpg', 'IMG_3445.JPG',
     ];
   return (
     <Container className='mt-4 full'>
