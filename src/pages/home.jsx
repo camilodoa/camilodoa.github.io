@@ -22,7 +22,7 @@ export default function Home () {
           <p className='my-4'>
             I study Computer Science at <a href="https://www.amherst.edu/" rel="noreferrer noopener" target="_blank">
             Amherst College</a>. My interests lie in the space between machine learning, web development,
-            and contemporary art.
+            and contemporary art. Right now I'm using AI techniques to predict future ICE raids in the US.
           </p>
           <p className='my-4'>
             I was recently a research assistant at <a href="http://www.cs.ox.ac.uk/"
@@ -33,7 +33,7 @@ export default function Home () {
              developed a full-stack <a href="http://pdq-webapp.cs.ox.ac.uk/react-ui"
              rel="noopener noreferrer" target="_blank">web app</a> that provides an interface
              for programmers to generate and save efficient query-plans for
-             semantically-interconnected datasources. Next Fall, I'll be starting
+             semantically-interconnected datasources. Next fall, I'll be starting
              as a Software Engineer at <a href="https://www.jpmorgan.com/country/US/en/jpmorgan"
              rel="noopener noreferrer" target="_blank">JPMorgan Chase & Co.</a>
           </p>
