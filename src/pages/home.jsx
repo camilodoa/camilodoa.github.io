@@ -12,7 +12,7 @@ export default function Home () {
   return (
     <Container className='my-2 top mb-4 pb-4'>
       <Row className='align justify full my-4 justify-content-md-center top bottom'>
-        <Col className='mx-4 top bottom'>
+        <Col xl={'6'} className='mx-4 top bottom'>
           <Image alt='me' src={general + 'me.jpg'} roundedCircle className='profile'/>
         </Col>
         <Col className='my-4'>
@@ -20,9 +20,15 @@ export default function Home () {
             Hi, I'm <b>Camilo</b>.
           </p>
           <p className='my-4'>
-            I study Computer Science at <a href="https://www.amherst.edu/" rel="noreferrer noopener" target="_blank">
-            Amherst College</a>. My interests lie in the space between machine learning, web development,
+            My interests lie in the space between machine learning, web development,
             and contemporary art. Right now I'm using AI techniques to predict future ICE raids in the US.
+          </p>
+          <p className='my-2'>
+            In 2018, I was involved in the development of <a href="https://bampfa.org/program/dimensionism-modern-art-age-einstein"
+            rel="noopener noreferrer" target="_blank">Dimensionism</a>,
+            an exhibition that analyzed the influence of modern physics on the artistic processes of the
+            early 20th century. Jonathon Keats  wrote an <a href="https://www.forbes.com/sites/jonathonkeats/2019/02/28/dimensionism/#101870147b0f"
+            rel="noopener noreferrer" target="_blank">article</a> about it for Forbes Magazine.
           </p>
           <p className='my-4'>
             I was recently a research assistant at <a href="http://www.cs.ox.ac.uk/"
@@ -33,16 +39,9 @@ export default function Home () {
              developed a full-stack <a href="http://pdq-webapp.cs.ox.ac.uk/react-ui"
              rel="noopener noreferrer" target="_blank">web app</a> that provides an interface
              for programmers to generate and save efficient query-plans for
-             semantically-interconnected datasources. Next fall, I'll be starting
-             as a Software Engineer at <a href="https://www.jpmorgan.com/country/US/en/jpmorgan"
+             semantically-interconnected datasources. Currently, I'm working in
+             software engineering at <a href="https://www.jpmorgan.com/country/US/en/jpmorgan"
              rel="noopener noreferrer" target="_blank">JPMorgan Chase & Co.</a>
-          </p>
-          <p className='my-2'>
-            In 2018, I was involved in the development of <a href="https://bampfa.org/program/dimensionism-modern-art-age-einstein"
-            rel="noopener noreferrer" target="_blank">Dimensionism</a>,
-            an exhibition that analyzed the influence of modern physics on the artistic processes of the
-            early 20th century. Jonathon Keats  wrote an <a href="https://www.forbes.com/sites/jonathonkeats/2019/02/28/dimensionism/#101870147b0f"
-            rel="noopener noreferrer" target="_blank">article</a> about it for Forbes Magazine.
           </p>
         </Col>
       </Row>

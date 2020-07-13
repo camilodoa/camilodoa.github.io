@@ -41,7 +41,8 @@ a:hover {
 }
 
 .profile {
-  max-width: 20rem;
+  max-width: 90vw;
+  width: 65vh;
 }
 
 .align {

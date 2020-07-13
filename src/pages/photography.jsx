@@ -5,8 +5,8 @@ import Project from "../components/project";
 export default function PhotoStream () {
   let root = '../photography/';
   let imageList = ['farm fest.jpg', 'red hook.jpg', 'parade gardens, bath.jpg',
-    'bath, linear.jpg', 'bath, exponential.jpg',
-    'montañas.jpg', 'centered marsh.jpg', 'the shard.jpg', 'radcliffe camera.jpg', 'santa marta.jpg',
+    'bath, linear.jpg', 'bath, exponential.jpg', 'centered marsh.jpg',
+    'the shard.jpg', 'radcliffe camera.jpg', 'santa marta.jpg',
     'center and periphery.jpg',
     ];
   return (
@@ -17,4 +17,3 @@ export default function PhotoStream () {
     </Container>
   );
 }
-
