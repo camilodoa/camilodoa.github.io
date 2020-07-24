@@ -11,11 +11,10 @@ export default function Home () {
 
   return (
     <Container className='my-2 top mb-4 pb-4'>
-      <Row className='align justify full my-4 justify-content-md-center top bottom'>
+      <Row className=' justify  my-4 justify-content-md-center top bottom'>
         <Col xl={'6'} className='mx-4 top bottom'>
           <Image alt='me' src={general + 'me.jpg'} roundedCircle className='profile'/>
-        </Col>
-        <Col className='my-4'>
+
           <p className='my-4'>
             Hi, I'm <b>Camilo</b>.
           </p>
@@ -66,7 +65,7 @@ export default function Home () {
         <Row className='align justify mb-3 justify-content-md-center'>
             <Col lg={8} className='top'>
                 <div className={'babycontainer mt-4'}>
-                    <iframe className={'ra'} src="https://lunarbaby.ml" name="lunarbaby"/>
+                    <iframe className={'ra'} title='RA' src="https://lunarbaby.ml" name="lunarbaby"/>
                 </div>
                 <h4 className='my-4'>
                     <b>

@@ -42,6 +42,8 @@ a:hover {
 
 .profile {
   max-width: 20rem;
+  display: block;
+  margin: auto;
 }
 
 .align {
