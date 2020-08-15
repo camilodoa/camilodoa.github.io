@@ -6,14 +6,13 @@ import Image from 'react-bootstrap/Image';
 import Project from "../components/project";
 
 export default function Home () {
-  let general = '../general/';
-  let projects = '../projects/';
+  let images = '../img/';
 
   return (
     <Container className='my-2 top mb-4 pb-4'>
       <Row className='justify  my-4 justify-content-md-center'>
         <Col md={'8'} className='mx-4 top'>
-          <Image alt='me' src={general + 'me.jpg'} roundedCircle className='profile'/>
+          <Image alt='me' src={images + 'me.jpg'} roundedCircle className='profile'/>
 
           <p className='my-4'>
             Hi, I'm <b>Camilo</b>.
@@ -44,7 +43,7 @@ export default function Home () {
           </p>
         </Col>
       </Row>
-      <Row className='align justify justify-content-md-center '>
+      <Row className='align justify justify-content-md-center mt-2'>
         <Col md={'8'} >
           <h3 className='my-2'>
             <b>
@@ -54,7 +53,7 @@ export default function Home () {
         </Col>
       </Row>
       <Project
-          path={projects + 'ai-melts-ice.png'}
+          path={images + 'ai-melts-ice.png'}
           name={'ai-melts-ice.ml'}
           link={'https://ai-melts-ice.ml'}
           description={'is a web app designed to source and visualize\n' +
