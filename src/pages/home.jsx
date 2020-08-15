@@ -11,8 +11,8 @@ export default function Home () {
 
   return (
     <Container className='my-2 top mb-4 pb-4'>
-      <Row className=' justify  my-4 justify-content-md-center top bottom'>
-        <Col xl={'6'} className='mx-4 top bottom'>
+      <Row className='justify  my-4 justify-content-md-center'>
+        <Col md={'8'} className='mx-4 top'>
           <Image alt='me' src={general + 'me.jpg'} roundedCircle className='profile'/>
 
           <p className='my-4'>
@@ -44,8 +44,8 @@ export default function Home () {
           </p>
         </Col>
       </Row>
-      <Row className='align justify mt-1 justify-content-md-center '>
-        <Col lg={8} className='top'>
+      <Row className='align justify justify-content-md-center '>
+        <Col md={'8'} >
           <h3 className='my-2'>
             <b>
             <u>projects</u>
@@ -63,7 +63,7 @@ export default function Home () {
           '          from Syracuse\'s TRAC web API.'}
       />
         <Row className='align justify mb-3 justify-content-md-center'>
-            <Col lg={8} className='top'>
+            <Col md={8}>
                 <div className={'babycontainer mt-4'}>
                     <iframe className={'ra'} title='RA' src="https://lunarbaby.ml" name="lunarbaby"/>
                 </div>
