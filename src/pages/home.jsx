@@ -73,9 +73,11 @@ export default function Home () {
                     </b>
                 </h4>
                 <p className='my-4'>
-                    <b>Ra</b> {'is a q-learning agent that lives in your browser. It\n' +
-                '            learns to approach the concentric circles in the center of the page. By touching\n' +
-                '            the screen, you change the location of these circles and restructure Ra\'s world.'}
+                    <b>Ra</b> {'is a q-learning agent that lives in your browser. Over time, it\n' +
+                '            learns to approach the concentric circles in the center of the page.\n' +
+                '            This training environment and agent were made as the first steps \n' +
+                '            for a homebrewed browser-based RL framework. I\'m currently working on a followup \n' +
+                '            RL agent that uses a trained SNN to move towards a goal.'}
                 </p>
             </Col>
         </Row>
