@@ -64,20 +64,20 @@ export default function Home () {
         <Row className='align justify mb-3 justify-content-md-center'>
             <Col md={8}>
                 <div className={'babycontainer mt-4'}>
-                    <iframe className={'ra'} title='RA' src="https://lunarbaby.ml" name="lunarbaby"/>
+                    <iframe className={'ra'} title='RA' src="https://ra.rlitb.ml" name="ra"/>
                 </div>
                 <h4 className='my-4'>
                     <b>
-                        <a href={'https://lunarbaby.ml'}
-                           rel="noopener noreferrer" target="_blank">{'lunarbaby.ml'}</a>
+                        <a href={'https://ra.rlitb.ml'}
+                           rel="noopener noreferrer" target="_blank">{'ra.rlitb.ml'}</a>
                     </b>
                 </h4>
                 <p className='my-4'>
                     <b>Ra</b> {'is a q-learning agent that lives in your browser. Over time, it\n' +
                 '            learns to approach the concentric circles in the center of the page.\n' +
                 '            This training environment and agent were made as the first steps \n' +
-                '            for a homebrewed browser-based RL framework. I\'m currently working on a followup \n' +
-                '            RL agent that uses a trained SNN to move towards a goal.'}
+                '            for a homebrewed browser-based RL framework. I\'m currently working on a number of followup \n' +
+                '            RL agents that use a trained ANN to optimize their policies.'}
                 </p>
             </Col>
         </Row>
