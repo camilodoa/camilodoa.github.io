@@ -64,12 +64,12 @@ export default function Home () {
         <Row className='align justify mb-3 justify-content-md-center'>
             <Col md={8}>
                 <div className={'babycontainer mt-4'}>
-                    <iframe className={'ra'} title='RA' src="https://ra.rlitb.ml" name="ra"/>
+                    <iframe className={'ra'} title='RA' src="https://camilodoa.ml/ra" name="ra"/>
                 </div>
                 <h4 className='my-4'>
                     <b>
-                        <a href={'https://ra.rlitb.ml'}
-                           rel="noopener noreferrer" target="_blank">{'ra.rlitb.ml'}</a>
+                        <a href={'https://camilodoa.ml/ra'}
+                           rel="noopener noreferrer" target="_blank">{'camilodoa.ml/ra'}</a>
                     </b>
                 </h4>
                 <p className='my-4'>
