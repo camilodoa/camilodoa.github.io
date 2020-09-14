@@ -86,7 +86,7 @@ export default function Home () {
               <h4 className='my-4'>
                   <b>
                       <a href={'https://camilodoa.ml/dra'}
-                         rel="noopener noreferrer" target="_blank">{'Ra'}</a>
+                         rel="noopener noreferrer" target="_blank">{'Dra'}</a>
                   </b>
               </h4>
               <p className='my-4'>
