@@ -19,16 +19,8 @@ p {
   font-weight: 450;
 }
 
-a:link {
-  color: #68a6d9;
-}
-
-a:visited {
-  color: #665d4e;
-}
-
-a:hover {
-  color: #336E83;
+a {
+  color:  #0059a7;
   text-decoration: none;
 }
 
@@ -62,7 +54,11 @@ a:hover {
   position: relative;
   overflow: hidden;
   width: 100%;
-  padding-top: 56.25%;
+  padding-top: 100%;
+}
+
+.header {
+  padding-top: 125%;
 }
 
 .ra{

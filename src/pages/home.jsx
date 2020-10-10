@@ -2,7 +2,6 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Image from 'react-bootstrap/Image';
 import Project from "../components/project";
 
 export default function Home () {
@@ -10,10 +9,13 @@ export default function Home () {
 
   return (
     <Container className='my-2 top mb-4 pb-4'>
+      <Row className="my-4 top justify-content-md-center">
+      </Row>
       <Row className='justify  my-4 justify-content-md-center'>
-        <Col md={'8'} className='mx-4 top'>
-          <Image alt='me' src={images + 'me.jpg'} roundedCircle className='profile'/>
-
+        <Col md={'8'} className='mx-4'>
+          <div className={'babycontainer header my-4'}>
+              <iframe className={'dra'} title='DRA' src="https://camilodoa.ml/dra" name="dra"/>
+          </div>
           <p className='my-4'>
             Hi, I'm <b>Camilo</b>.
           </p>
