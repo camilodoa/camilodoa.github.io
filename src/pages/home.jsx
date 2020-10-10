@@ -93,9 +93,7 @@ export default function Home () {
               </h4>
               <p className='my-4'>
                   <b>Dra</b> {'is the second iteration of Ra. Dra is a deep learning\n' +
-                  'agent that exists and learns in the browser with the help of a neural network.\n' +
-                  'I\'m currently working on a zoo of followup \n' +
-                  'RL agents that use a variety of trained ANN to optimize their policies.'}
+                  'agent that exists and learns in the browser with the help of a neural network.'}
               </p>
           </Col>
       </Row>
