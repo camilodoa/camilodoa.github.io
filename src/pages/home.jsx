@@ -92,8 +92,8 @@ export default function Home () {
                   </b>
               </h4>
               <p className='my-4'>
-                  <b>Dra</b> {'is the second iteration of Ra. Dra is a deep learning\n' +
-                  'agent that exists and learns in the browser with the help of a neural network.'}
+                  <b>Dra</b> {'is the second iteration of Ra. Dra is an\n' +
+                  'agent that moves in the browser with the help of a neural network.'}
               </p>
           </Col>
       </Row>
