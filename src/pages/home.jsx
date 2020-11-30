@@ -66,23 +66,6 @@ export default function Home () {
       <Row className='align justify mb-3 justify-content-md-center'>
           <Col md={8}>
               <div className={'babycontainer mt-4'}>
-                  <iframe className={'ra'} title='RA' src="https://camilodoa.ml/ra" name="ra"/>
-              </div>
-              <h4 className='my-4'>
-                  <b>
-                      <a href={'https://camilodoa.ml/ra'}
-                         rel="noopener noreferrer" target="_blank">{'Ra'}</a>
-                  </b>
-              </h4>
-              <p className='my-4'>
-                  <b>Ra</b> {'is a q-learning agent that lives in your browser. Over time, it\n' +
-                  'learns to approach the concentric circles in the center of the page.\n' }
-              </p>
-          </Col>
-      </Row>
-      <Row className='align justify mb-3 justify-content-md-center'>
-          <Col md={8}>
-              <div className={'babycontainer mt-4'}>
                   <iframe className={'dra'} title='DRA' src="https://camilodoa.ml/dra" name="dra"/>
               </div>
               <h4 className='my-4'>
@@ -92,8 +75,8 @@ export default function Home () {
                   </b>
               </h4>
               <p className='my-4'>
-                  <b>Dra</b> {'is the second iteration of Ra. Dra is an\n' +
-                  'agent that moves in the browser with the help of a neural network.'}
+                  <b>Dra</b> {'is a deep learning agent that lives in your browser. Over time, it\n' +
+                  'learns to approach the concentric circles in the center of the page with the help of a neural network.'}
               </p>
           </Col>
       </Row>
