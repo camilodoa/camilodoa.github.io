@@ -1,6 +1,7 @@
-import React from 'react'
-import Navbar from 'react-bootstrap/Navbar'
-import Nav from 'react-bootstrap/Nav'
+import React from 'react';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
@@ -13,6 +14,8 @@ export default function Footer() {
         <Nav.Link href='https://twitter.com/camilodoa'>twitter</Nav.Link>
 
         <Nav.Link href='https://camilodoa.ml/resume/'>resume</Nav.Link>
+
+        <Nav.Link><Link to="/lunarbabies" style={{"color": "rgba(0, 0, 0, 0.5)"}}>lunar babies</Link></Nav.Link>
       </Nav>
     </Navbar>
   )

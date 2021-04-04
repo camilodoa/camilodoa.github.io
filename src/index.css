@@ -22,7 +22,7 @@ p {
 }
 
 a {
-  color:  #0059a7;
+  color:  rgba(0, 0, 0, 0.5);
   text-decoration: none!important;
 }
 

@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
-import Code from './code';
+import Code from '../../../components/code';
 import Example1 from './examples/example1'
 
 export default function LunarBabies() {
@@ -16,18 +16,24 @@ export default function LunarBabies() {
                     <div className={'babycontainer header'}>
                         <iframe className={'lunarbaby'} title='lunar baby' src='https://camilodoa.ml/lunarbaby' name='lunar baby' />
                     </div>
-                    <h2 className="my-4">Reinforcement learning with lunar babies</h2>
+                    <h2 className="my-4 pb-4">Reinforcement learning with lunar babies</h2>
                     <h3 className="my-4">Introduction</h3>
                     <div className={'babycontainer'}>
                         <Example1/>
                     </div>
                     <p className="my-2">
                         It's relatively straightforward to make something move on a screen.
-                        In the browser, we can do this using Paper.js. If we wanted to make a
-                        circle bounce around in a straight line we can do it in two steps.
+                        In the browser, we can do this using <i>paper.js</i>. To make a
+                        circle bounce around at constant velocity we can do as follows:
                     </p>
-                    <p>First we define an object to display with a constructor and a render function.</p>
-                    <p>Then, we register the function with Paper so it renders on every frame.</p>
+                    <p>First we have to define an object that will be displayed. It needs with a constructor and a render function.</p>
+                    <p>Then, we register the render function with paper to call it on every frame.</p>
+                    <p>
+                        In the example below, we start by selecting a random position and placing a circle symbol there.
+                        Then, we generate a random velocity. On every frame, we'll be adding it's y
+                        and x components to our current position's y and x coordinates. 
+                    </p>
+
                     <Code text={`// Define an object a shape, position, velocity, and time step function
 const Ball = paper.Base.extend({
     initialize: function() {
