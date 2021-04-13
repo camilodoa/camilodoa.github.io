@@ -4,7 +4,7 @@ import paper from "paper";
 export default function Example1() {
     return (
         <div className={'babycontainer mt-4'}>
-            <canvas id="example1" className={"example1"}/>
+            <canvas id="example1" className={"example1"} resize/>
             <BouncingBall />
         </div>
     );
@@ -45,8 +45,12 @@ function BouncingBall() {
         // Set up paper
         paper.install(window);
         paper.setup('example1');
+        paper.view.onResize = () => {
+            ball = new Ball()
+        }
+        
         // Our ball
-        const ball = new Ball();
+        let ball = new Ball();
         // Every frame, update the ball's position
         paper.view.onFrame = () => ball.update();
     }

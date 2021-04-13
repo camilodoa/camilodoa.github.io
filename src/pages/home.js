@@ -23,7 +23,7 @@ export default function Home() {
           </p>
           <p className='my-2'>
             In 2018, I was involved in the development of{' '}
-            <a href='https://bampfa.org/program/dimensionism-modern-art-age-einstein' rel='noopener noreferrer' target='_blank'>
+            <a href='https://bampfa.org/program/dimensionism-modern-art-age-einstein' rel='noopener noreferrer' target='_blank' className="body-link">
               Dimensionism
             </a>
             , an exhibition that analyzed the influence of modern physics on the artistic processes of the early 20th century. Jonathon
@@ -32,6 +32,7 @@ export default function Home() {
               href='https://www.forbes.com/sites/jonathonkeats/2019/02/28/dimensionism/#101870147b0f'
               rel='noopener noreferrer'
               target='_blank'
+              className="body-link"
             >
               article
             </a>{' '}
@@ -39,24 +40,24 @@ export default function Home() {
           </p>
           <p className='my-4'>
             I was recently a research assistant at{' '}
-            <a href='http://www.cs.ox.ac.uk/' rel='noopener noreferrer' target='_blank'>
+            <a href='http://www.cs.ox.ac.uk/' rel='noopener noreferrer' target='_blank' className="body-link">
               Oxford
             </a>
             's Department of Computer Science, working on Professor{' '}
-            <a href='https://www.cs.ox.ac.uk/michael.benedikt/' rel='noopener noreferrer' target='_blank'>
+            <a href='https://www.cs.ox.ac.uk/michael.benedikt/' rel='noopener noreferrer' target='_blank' className="body-link">
               Michael Benedikt
             </a>
             's{' '}
-            <a href='http://www.cs.ox.ac.uk/projects/pdq/home.html' rel='noopener noreferrer' target='_blank'>
+            <a href='http://www.cs.ox.ac.uk/projects/pdq/home.html' rel='noopener noreferrer' target='_blank' className="body-link">
               PDQ
             </a>{' '}
             (Proof-Driven Query) planning application. There, I developed a full-stack{' '}
-            <a href='http://pdq-webapp.cs.ox.ac.uk/react-ui' rel='noopener noreferrer' target='_blank'>
+            <a href='http://pdq-webapp.cs.ox.ac.uk/react-ui' rel='noopener noreferrer' target='_blank' className="body-link">
               web app
             </a>{' '}
             that provides an interface for programmers to generate and save efficient query-plans for semantically-interconnected
             datasources. Currently, I'm working in software engineering at{' '}
-            <a href='https://www.jpmorgan.com/country/US/en/jpmorgan' rel='noopener noreferrer' target='_blank'>
+            <a href='https://www.jpmorgan.com/country/US/en/jpmorgan' rel='noopener noreferrer' target='_blank' className="body-link">
               JPMorgan Chase & Co.
             </a>
           </p>
@@ -87,7 +88,7 @@ export default function Home() {
           </div>
           <h4 className='my-4'>
             <b>
-              <a href={'https://camilodoa.ml/dra'} rel='noopener noreferrer' target='_blank'>
+              <a href={'https://camilodoa.ml/dra'} rel='noopener noreferrer' target='_blank' className="body-link">
                 {'Dra'}
               </a>
             </b>

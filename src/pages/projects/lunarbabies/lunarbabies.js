@@ -23,10 +23,10 @@ export default function LunarBabies() {
                     </div>
                     <p className="my-2">
                         It's relatively straightforward to make something move on a screen.
-                        In the browser, we can do this using <i>paper.js</i>. To make a
-                        circle bounce around at constant velocity we can do as follows:
+                        In the browser, we can animate objects with <i>paper.js</i>. As a starting point,
+                        let's make a ball bounce around.
                     </p>
-                    <p>First we have to define an object that will be displayed. It needs with a constructor and a render function.</p>
+                    <p>First we have to define an object that will be displayed. It needs a constructor and a render function.</p>
                     <p>Then, we register the render function with paper to call it on every frame.</p>
                     <p>
                         In the example below, we start by selecting a random position and placing a circle symbol there.

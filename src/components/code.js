@@ -1,5 +1,5 @@
 import React from 'react';
-import { CodeBlock, atomOneLight } from "react-code-blocks";
+import { CodeBlock, github } from "react-code-blocks";
 
 export default function Code({ text }) {
     return (
@@ -8,7 +8,7 @@ export default function Code({ text }) {
             text={text}
             language={"javascript"}
             showLineNumbers={true}
-            theme={atomOneLight}
+            theme={github}
         />
     );  
 }

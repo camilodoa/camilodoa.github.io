@@ -15,7 +15,7 @@ export default function Footer() {
 
         <Nav.Link href='https://camilodoa.ml/resume/'>resume</Nav.Link>
 
-        <Nav.Link><Link to="/lunarbabies" style={{"color": "rgba(0, 0, 0, 0.5)"}}>lunar babies</Link></Nav.Link>
+        <Nav.Link><Link to="/lunarbabies" class="footer-link">lunar babies</Link></Nav.Link>
       </Nav>
     </Navbar>
   )

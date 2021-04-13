@@ -13,7 +13,7 @@ export default function Project({ path, name, link, description }) {
         <Image alt={name} src={path} fluid />
         <h4 className='my-4'>
           <b>
-            <a href={link} rel='noopener noreferrer' target='_blank'>
+            <a href={link} rel='noopener noreferrer' target='_blank' className="body-link">
               {name}
             </a>
           </b>
