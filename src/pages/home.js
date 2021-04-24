@@ -8,7 +8,7 @@ export default function Home() {
   const images = '../img/'
 
   return (
-    <Container className='my-2 mb-4 pb-4'>
+    <Container className='mb-4 pb-4'>
       <Row className='justify my-2 justify-content-md-center'>
         <Col md={'8'} className='mx-4'>
           <div className={'babycontainer header my-4'}>

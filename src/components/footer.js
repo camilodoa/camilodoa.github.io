@@ -14,8 +14,9 @@ export default function Footer() {
         <Nav.Link href='https://twitter.com/camilodoa'>twitter</Nav.Link>
 
         <Nav.Link href='https://camilodoa.ml/resume/'>resume</Nav.Link>
-
-        <Nav.Link><Link to="/lunarbabies" class="footer-link">lunar babies</Link></Nav.Link>
+        {
+          // <Nav.Link><Link to="/lunarbabies" class="footer-link">lunar babies</Link></Nav.Link>
+        }
       </Nav>
     </Navbar>
   )
