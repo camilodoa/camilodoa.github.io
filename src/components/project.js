@@ -9,7 +9,7 @@ export default function Project({ path, name, link, description }) {
      */
   return (
     <Row className='align justify mb-3 justify-content-md-center'>
-      <Col lg={8} className='top'>
+      <Col lg={8} className='mt-4'>
         <Image alt={name} src={path} fluid />
         <h4 className='my-4'>
           <b>
