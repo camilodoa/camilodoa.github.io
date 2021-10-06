@@ -18,8 +18,8 @@ export default function Home() {
             Hi, I'm <b>Camilo</b>.
           </p>
           <p className='my-4'>
-            My interests lie in the space between machine learning, web
-            development, and contemporary art. Right now I'm working on <a href='https://github.com/camilodoa/lxai' rel='noopener noreferrer' target='_blank' className="body-link">solving reinforcement learning problems</a> with Spiking Neural Networks (SNNs).
+            I'm interested in web, ML, RL, and computational neuro. Right
+            now I'm working on <a href='https://github.com/camilodoa/lxai' rel='noopener noreferrer' target='_blank' className="body-link">solving reinforcement learning problems</a> with Spiking Neural Networks (SNNs).
           </p>
           <p className='my-4'>
             In 2019 and 2020, I worked at the University of Oxford with {" "}
