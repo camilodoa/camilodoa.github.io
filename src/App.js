@@ -4,7 +4,6 @@ import { Switch, Route }
 import Header from './components/header';
 import Footer from './components/footer';
 import Home from './pages/home';
-import LunarBabies from './pages/projects/lunarbabies/lunarbabies';
 
 export default function App() {
   return (
@@ -13,9 +12,6 @@ export default function App() {
       <Switch>
         <Route exact path="/">
           <Home/>
-        </Route>
-        <Route path="/lunarbabies">
-          <LunarBabies/>
         </Route>
       </Switch>
       <Footer/>

@@ -9,11 +9,11 @@ export default function Home() {
 
   return (
     <Container className='mb-4 pb-4'>
+    <div className={'babycontainer header my-4'}>
+      <iframe className={'lunarbaby'} title='lunar baby' src='https://camilodoa.ml/lunarbaby' name='lunar baby' />
+    </div>
       <Row className='justify my-2 justify-content-md-center'>
         <Col md={'8'} className='mx-4'>
-          <div className={'babycontainer header my-4'}>
-            <iframe className={'lunarbaby'} title='lunar baby' src='https://camilodoa.ml/lunarbaby' name='lunar baby' />
-          </div>
           <p className='my-4'>
             Hi, I'm <b>Camilo</b>.
           </p>
@@ -63,10 +63,10 @@ export default function Home() {
         }
       />
       <Row className='align justify mb-3 justify-content-md-center'>
-        <Col md={8}>
-          <div className={'babycontainer mt-4'}>
-            <iframe className={'dra'} title='DRA' src='https://camilodoa.ml/dra' name='dra' />
-          </div>
+        <Col md={'8'} className='mx-4'>
+        <div className={'babycontainer my-4'}>
+          <iframe className={'dra'} title='DRA' src='https://camilodoa.ml/dra' name='dra' />
+        </div>
           <h4 className='my-4'>
             <b>
               <a href={'https://camilodoa.ml/dra'} rel='noopener noreferrer' target='_blank' className="body-link">

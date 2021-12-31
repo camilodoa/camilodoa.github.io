@@ -8,9 +8,11 @@ export default function Project({ path, name, link, description }) {
     Project is a full - level container for project images and descriptions
      */
   return (
-    <Row className='align justify mb-3 justify-content-md-center'>
-      <Col lg={8} className='mt-4'>
-        <Image alt={name} src={path} fluid />
+    <>
+
+    <Row className='justify my-2 justify-content-md-center'>
+      <Col md={'8'} className='mx-4'>
+      <Image alt={name} src={path} fluid />
         <h4 className='my-4'>
           <b>
             <a href={link} rel='noopener noreferrer' target='_blank' className="body-link">
@@ -25,5 +27,6 @@ export default function Project({ path, name, link, description }) {
         ) : null}
       </Col>
     </Row>
+    </>
   )
 }
