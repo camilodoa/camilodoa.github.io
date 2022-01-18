@@ -4,16 +4,16 @@ import Col from 'react-bootstrap/Col';
 import Link from './link';
 import styled from 'styled-components';
 
-export const ProjectRow = styled(Row)`
+const ProjectRow = styled(Row)`
   justify-content: center;
 `;
 
-export const ProjectTitle = styled.h4`
+const ProjectTitle = styled.h4`
   margin: 1.5rem 0px;
   font-weight: bold;
 `;
 
-export const ProjectBody = styled.p`
+const ProjectBody = styled.p`
   margin: 1.5rem 0px;
 `;
 

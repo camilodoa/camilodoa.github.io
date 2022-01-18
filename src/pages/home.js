@@ -7,11 +7,11 @@ import Link from '../components/link';
 import Image from 'react-bootstrap/Image';
 import styled from 'styled-components';
 
-export const Row = styled(UnstyledRow)`
+const Row = styled(UnstyledRow)`
   justify-content: center;
 `;
 
-export const Paragraph = styled.p`
+const Paragraph = styled.p`
   margin: 1.5rem 0px;
 `;
 
