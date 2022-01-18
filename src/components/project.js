@@ -1,32 +1,40 @@
-import React from 'react'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-import Image from 'react-bootstrap/Image'
+import React from 'react';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Link from './link';
+import styled from 'styled-components';
 
-export default function Project({ path, name, link, description }) {
-  /*
-    Project is a full - level container for project images and descriptions
-     */
+export const ProjectRow = styled(Row)`
+  justify-content: center;
+`;
+
+export const ProjectTitle = styled.h4`
+  margin: 1.5rem 0px;
+  font-weight: bold;
+`;
+
+export const ProjectBody = styled.p`
+  margin: 1.5rem 0px;
+`;
+
+const Project = ({ media, name, link, description }) => {
   return (
-    <>
-
-    <Row className='justify my-2 justify-content-md-center'>
-      <Col md={'8'} className='mx-4'>
-      <Image alt={name} src={path} fluid />
-        <h4 className='my-4'>
-          <b>
-            <a href={link} rel='noopener noreferrer' target='_blank' className="body-link">
-              {name}
-            </a>
-          </b>
-        </h4>
-        {description ? (
-          <p className='my-4'>
-            <b>{name.slice(0, -3)}</b> {description}
-          </p>
-        ) : null}
+    <ProjectRow>
+      <Col md={'8'}>
+        {media}
+        <ProjectTitle>
+          <Link src={link}>
+            {name}
+          </Link>
+        </ProjectTitle>
+        {description && (
+          <ProjectBody>
+            <b>{name}</b> {description}
+          </ProjectBody>
+        )}
       </Col>
-    </Row>
-    </>
+    </ProjectRow>
   )
-}
+};
+
+export default Project;
