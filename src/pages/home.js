@@ -55,9 +55,10 @@ const Home = () => {
               Hi, I'm <b>Camilo</b>.
             </Paragraph>
             <Paragraph>
-              I'm interested in web, reinforcement learning, and computational neuroscience. Right
-              now I'm working on
-              <Link src='https://github.com/camilodoa/lxai'> solving reinforcement learning problems </Link>
+              I'm interested in web, reinforcement learning, and computational neuroscience.
+              I'm a software engineer at <Link src="https://www.google.com">Google</Link> and in my free time
+              I
+              <Link src='https://github.com/camilodoa/lxai'> solve reinforcement learning problems </Link>
               with Spiking Neural Networks (SNNs).
             </Paragraph>
             <Paragraph>
@@ -69,12 +70,6 @@ const Home = () => {
               <Link src='http://pdq-webapp.cs.ox.ac.uk/react-ui'> web application </Link>
               that provided an interface for programmers to generate, save, and run
               optimal query-plans over semantically-interconnected datasources.
-            </Paragraph>
-            <Paragraph>
-            While I'm still contributing to PDQ here and there, I primarily spend
-            my time leading UI development for my team at
-            <Link src='https://www.jpmorgan.com/country/US/en/jpmorgan'> JPMorgan Chase & Co. </Link>
-            and working on my personal projects.
             </Paragraph>
           </Col>
         </Row>
