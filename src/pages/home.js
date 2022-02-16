@@ -47,7 +47,7 @@ const Home = () => {
   return (
     <Container>
       <HeaderPlaypen>
-        <LunarBaby title='Lunar baby' src='https://camilodoa.ml/lunarbaby' name='Lunar baby' />
+        <LunarBaby title='Lunar baby' src='https://camilodoa.ml/ra' name='Lunar baby' />
       </HeaderPlaypen>
         <Row>
           <Col md={'8'}>
@@ -94,7 +94,7 @@ const Home = () => {
         <Project
           media={
             <Playpen>
-              <LunarBaby title='Deep reinforcement learning agent' src='https://camilodoa.ml/dra' name='Dra' />
+              <LunarBaby title='Deep reinforcement learning agent' src='https://camilodoa.ml/lunarbaby' name='Dra' />
             </Playpen>
           }
           name='Dra'
