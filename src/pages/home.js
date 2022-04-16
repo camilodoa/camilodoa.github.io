@@ -23,8 +23,9 @@ const SectionHeader = styled.h3`
 const Playpen = styled.div`
   position: relative;
   overflow: hidden;
+  display: flex;
   width: 100%;
-  height: 40%;
+  height: 22rem;
   margin: 1.5rem 0px;
 `;
 
@@ -40,7 +41,7 @@ const LunarBaby = styled.iframe`
 `;
 
 const HeaderPlaypen = styled(Playpen)`
-  height: calc(100% - 220px);
+  height: 33rem;
 `;
 
 const Home = () => {
