@@ -41,7 +41,7 @@ const LunarBaby = styled.iframe`
 `;
 
 const HeaderPlaypen = styled(Playpen)`
-  height: 33rem;
+  height: 30rem;
 `;
 
 const Home = () => {
