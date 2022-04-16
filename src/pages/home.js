@@ -68,7 +68,7 @@ const Home = () => {
               <Link src='http://www.cs.ox.ac.uk/projects/pdq/home.html'> PDQ </Link>
               (Proof-Driven Query planning) project. There, I developed a full-stack
               <Link src='http://pdq-webapp.cs.ox.ac.uk/react-ui'> web application </Link>
-              that provided an interface for programmers to generate, save, and run
+              where users can generate, save, and run
               optimal query-plans over semantically-interconnected datasources.
             </Paragraph>
           </Col>
