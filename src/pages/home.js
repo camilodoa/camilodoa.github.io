@@ -44,11 +44,13 @@ const HeaderPlaypen = styled(Playpen)`
   height: 30rem;
 `;
 
+const HOME_URL = "camilodoa.github.io";
+
 const Home = () => {
   return (
     <Container>
       <HeaderPlaypen>
-        <LunarBaby title='Lunar baby' src='https://camilodoa.ml/ra' name='Lunar baby' />
+        <LunarBaby title='Lunar baby' src={'https://'+ HOME_URL +'/ra'} name='Lunar baby' />
       </HeaderPlaypen>
         <Row>
           <Col md={'8'}>
@@ -84,7 +86,7 @@ const Home = () => {
         <Project
           media={<Image alt='AI Melts ICE' src={'../img/ai-melts-ice.png'} fluid />}
           name='AI Melts ICE'
-          link='https://ai-melts-ice.ml'
+          link={'https://'+ HOME_URL +'/ai-melts-ice'}
           description={
             'is a web app designed to visualize\n' +
             '          historical and predicted data of county-specific ICE arrests in the US. The predictions are\n' +
@@ -95,11 +97,11 @@ const Home = () => {
         <Project
           media={
             <Playpen>
-              <LunarBaby title='Deep reinforcement learning agent' src='https://camilodoa.ml/lunarbaby' name='Dra' />
+              <LunarBaby title='Deep reinforcement learning agent' src={'https://'+ HOME_URL +'/lunarbaby'} name='Dra' />
             </Playpen>
           }
           name='Dra'
-          link='https://camilodoa.ml/dra'
+          link={'https://'+ HOME_URL +'/dra'}
           description={
             'is a Deep Q-Network agent that lives in your browser. Over time, it\n' +
             'learns to approach the goal in the center of the page with the help of a neural network.'

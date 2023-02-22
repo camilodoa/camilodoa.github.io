@@ -10,7 +10,7 @@ export default function Footer() {
 
         <Nav.Link href='https://github.com/camilodoa'>github</Nav.Link>
 
-        <Nav.Link href='https://camilodoa.ml/resume/'>resume</Nav.Link>
+        <Nav.Link href='https://camilodoa.github.io/resume/'>resume</Nav.Link>
       </Nav>
     </Navbar>
   )
