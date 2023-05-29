@@ -101,10 +101,11 @@ const Home = () => {
             </Playpen>
           }
           name='Dra'
-          link={'https://'+ HOME_URL +'/dra'}
+          link={'https://'+ HOME_URL +'/lunarbaby'}
           description={
-            'is a Deep Q-Network agent that lives in your browser. Over time, it\n' +
-            'learns to approach the goal in the center of the page with the help of a neural network.'
+            'is an art piece that explores the Sisyphean condition of a web-based\n' +
+            'creature. In the canvas lives a Deep Q-Network agent that learns to approach the goal\n' +
+            'at the center of the page. Whenever it reaches the goal, it teleports somewhere else.'
           }
         />
     </Container>
