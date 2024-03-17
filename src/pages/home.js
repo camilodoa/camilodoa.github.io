@@ -59,20 +59,25 @@ const Home = () => {
             </Paragraph>
             <Paragraph>
               I'm interested in web, reinforcement learning, and computational neuroscience.
-              I'm a software engineer at <Link src="https://www.google.com">Google</Link> and in my free time
-              I
-              <Link src='https://github.com/camilodoa/lxai'> solve reinforcement learning problems </Link>
-              with Spiking Neural Networks (SNNs).
+              At Google, I work on the Payments Platform's frontend experiences.
+              <Link src="https://payments.google.com"> Payments center</Link>,
+              reusable address widgets, and signup widgets. In my spare time,
+              I'm looking to contextualize machine learning concepts through art.
             </Paragraph>
             <Paragraph>
               In 2019 and 2020, I worked at the University of Oxford with
               <Link src='https://www.cs.ox.ac.uk/michael.benedikt/'> Michael Benedikt </Link>
-              on his
+              on the
               <Link src='http://www.cs.ox.ac.uk/projects/pdq/home.html'> PDQ </Link>
               (Proof-Driven Query planning) project. There, I developed a full-stack
               <Link src='http://pdq-webapp.cs.ox.ac.uk/react-ui'> web application </Link>
               where users can generate, save, and run
               optimal query-plans over semantically-interconnected datasources.
+              You can read more about this project in our paper,
+              <Link src="https://sigmodrecord.org/2022/12/31/pdq-2-0-flexible-infrastructure-for-integrating-reasoning-and-query-planning/">
+                <i> PDQ 2.0: Flexible Infrastructure for Integrating Reasoning and Query Planning</i>
+              </Link>,
+              published in SIGMOD in 2022.
             </Paragraph>
           </Col>
         </Row>
