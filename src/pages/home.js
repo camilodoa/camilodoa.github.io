@@ -44,11 +44,13 @@ const HeaderPlaypen = styled(Playpen)`
   height: 30rem;
 `;
 
+const HOME_URL = "camilodoa.github.io";
+
 const Home = () => {
   return (
     <Container>
       <HeaderPlaypen>
-        <LunarBaby title='Lunar baby' src='https://camilodoa.ml/ra' name='Lunar baby' />
+        <LunarBaby title='Lunar baby' src={'https://'+ HOME_URL +'/ra'} name='Lunar baby' />
       </HeaderPlaypen>
         <Row>
           <Col md={'8'}>
@@ -57,20 +59,25 @@ const Home = () => {
             </Paragraph>
             <Paragraph>
               I'm interested in web, reinforcement learning, and computational neuroscience.
-              I'm a software engineer at <Link src="https://www.google.com">Google</Link> and in my free time
-              I
-              <Link src='https://github.com/camilodoa/lxai'> solve reinforcement learning problems </Link>
-              with Spiking Neural Networks (SNNs).
+              At Google, I work on the Payments Platform's frontend experiences.
+              <Link src="https://payments.google.com"> Payments center</Link>,
+              reusable address widgets, and signup widgets. In my spare time,
+              I'm looking to contextualize machine learning concepts through art.
             </Paragraph>
             <Paragraph>
               In 2019 and 2020, I worked at the University of Oxford with
               <Link src='https://www.cs.ox.ac.uk/michael.benedikt/'> Michael Benedikt </Link>
-              on his
+              on the
               <Link src='http://www.cs.ox.ac.uk/projects/pdq/home.html'> PDQ </Link>
               (Proof-Driven Query planning) project. There, I developed a full-stack
               <Link src='http://pdq-webapp.cs.ox.ac.uk/react-ui'> web application </Link>
               where users can generate, save, and run
               optimal query-plans over semantically-interconnected datasources.
+              You can read more about this project in our paper,
+              <Link src="https://sigmodrecord.org/2022/12/31/pdq-2-0-flexible-infrastructure-for-integrating-reasoning-and-query-planning/">
+                <i> PDQ 2.0: Flexible Infrastructure for Integrating Reasoning and Query Planning</i>
+              </Link>,
+              published in SIGMOD in 2022.
             </Paragraph>
           </Col>
         </Row>
@@ -84,7 +91,7 @@ const Home = () => {
         <Project
           media={<Image alt='AI Melts ICE' src={'../img/ai-melts-ice.png'} fluid />}
           name='AI Melts ICE'
-          link='https://ai-melts-ice.ml'
+          link={'https://'+ HOME_URL +'/ai-melts-ice'}
           description={
             'is a web app designed to visualize\n' +
             '          historical and predicted data of county-specific ICE arrests in the US. The predictions are\n' +
@@ -95,14 +102,15 @@ const Home = () => {
         <Project
           media={
             <Playpen>
-              <LunarBaby title='Deep reinforcement learning agent' src='https://camilodoa.ml/lunarbaby' name='Dra' />
+              <LunarBaby title='Deep reinforcement learning agent' src={'https://'+ HOME_URL +'/lunarbaby'} name='Dra' />
             </Playpen>
           }
           name='Dra'
-          link='https://camilodoa.ml/dra'
+          link={'https://'+ HOME_URL +'/lunarbaby'}
           description={
-            'is a Deep Q-Network agent that lives in your browser. Over time, it\n' +
-            'learns to approach the goal in the center of the page with the help of a neural network.'
+            'is an art piece that explores the Sisyphean condition of a web-based\n' +
+            'creature. In the canvas lives a Deep Q-Network agent that learns to approach the goal\n' +
+            'at the center of the page. Whenever it reaches the goal, it teleports somewhere else.'
           }
         />
     </Container>
